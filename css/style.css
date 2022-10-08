@@ -1,3 +1,52 @@
+:root {
+    --ale: #d9a478;
+    --dark-ale: #733a29;
+}
+
+body {
+    margin: 0;
+}
+
 a {
-  text-decoration: none;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10%;
+}
+
+#main {
+    background-color: var(--ale);
+}
+
+header #logo {
+    max-width: 45vw;
+    max-height: 45vw;
+}
+
+header #arrow {
+    max-width: 10vw;
+    max-height: 10vw;
+    animation: arrow-animation 5s infinite;
+}
+
+#main .divider {
+    width: 100vw;
+}
+
+@keyframes arrow-animation {
+  from {
+      opacity: 0;
+      transform: translate(0, -60px) rotate(-30deg);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0) rotate(0);
+  }
 }

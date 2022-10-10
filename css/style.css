@@ -17,6 +17,10 @@ body {
     overflow-x: hidden;
 }
 
+h2 {
+    font-size: 3em;
+}
+
 h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
 }
@@ -25,7 +29,7 @@ p {
     font-family: 'Josefin Sans', sans-serif;
     letter-spacing: 1px;
     font-weight: 0.5;
-    font-size: 16px;
+    font-size: 1.3em;
 }
 
 a {
@@ -50,7 +54,7 @@ header #subheading {
     left: 4vw;
     bottom: 7vw;
     color: var(--dark-ale);
-    font-size: 14px;
+    font-size: 1em;
     letter-spacing: 1px;
     opacity: 0.5;
 }

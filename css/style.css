@@ -41,7 +41,6 @@ header {
     flex-direction: column;
     gap: 10%;
     background-color: var(--ale);
-    scroll-snap-align: start;
 }
 
 header #subheading {
@@ -68,12 +67,15 @@ main h1 {
     text-underline-offset: 12px;
 }
 
+header, main {
+    scroll-snap-align: start;
+}
+
 .beer-display {
     display: flex;
     justify-content: center;
     gap: 10vw;
     padding: 5vw 10vw;
-    scroll-snap-align: start;
 }
 
 .beer-display img {

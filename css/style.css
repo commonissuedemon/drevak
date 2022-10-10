@@ -41,6 +41,7 @@ header {
     flex-direction: column;
     gap: 10%;
     background-color: var(--ale);
+    scroll-snap-align: start;
 }
 
 header #subheading {

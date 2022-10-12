@@ -96,6 +96,12 @@ header, main {
     flex-direction: row-reverse;
 }
 
+#contact {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-column-gap: 10%;
+}
+
 main .divider {
     width: 100vw;
 }

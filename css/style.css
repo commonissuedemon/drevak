@@ -14,7 +14,6 @@ body {
     margin: 0;
     color: var(--ale);
     font-family: 'Josefin Sans', sans-serif;
-    overflow-x: hidden;
 }
 
 h2 {
@@ -38,7 +37,6 @@ a {
 
 header {
     display: flex;
-    width: 100vw;
     height: 100vh;
     align-items: center;
     justify-content: center;
@@ -101,11 +99,6 @@ header, main {
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
     padding: 2vw 10vw;
-    width: 100vw;
-}
-
-main .divider {
-    width: 100vw;
 }
 
 header #logo {

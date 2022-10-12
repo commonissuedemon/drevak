@@ -25,7 +25,7 @@ h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
 }
 
-p {
+p, input, textarea, button {
     font-family: 'Josefin Sans', sans-serif;
     letter-spacing: 1px;
     font-weight: 0.5;
@@ -98,8 +98,9 @@ header, main {
 
 #contact {
     display: grid;
-    grid-template-columns: 45% 45%;
-    grid-column-gap: 10%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+    padding: 2vw 10vw;
 }
 
 main .divider {
@@ -115,6 +116,15 @@ header #arrow {
     max-width: 10vw;
     max-height: 10vw;
     animation: arrow-animation 5s infinite;
+}
+
+#contact input {
+    grid-column: span 2;
+}
+
+#contact textarea {
+    grid-column: span 3;
+    min-height: 40vh;
 }
 
 @keyframes arrow-animation {

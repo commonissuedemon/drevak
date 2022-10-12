@@ -101,6 +101,7 @@ header, main {
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
     padding: 2vw 10vw;
+    width: 100vw;
 }
 
 main .divider {
@@ -157,9 +158,15 @@ header #arrow {
         padding: 10vw;
         gap: 5vw;
     }
+
     #even-beer {
         flex-direction: column;
     }
+
+    #contact input {
+        grid-column: span 2;
+    }
+
     .beer-display img {
         max-width: 40vw;
         margin: auto;

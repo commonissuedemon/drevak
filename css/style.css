@@ -98,7 +98,7 @@ header, main {
 
 #contact {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
     padding: 2vw 10vw;
 }
@@ -118,13 +118,26 @@ header #arrow {
     animation: arrow-animation 5s infinite;
 }
 
+#contact > * {
+    background-color: var(--ale);
+    border: none;
+    padding: .5em;
+    border-radius: .5em;
+}
+
 #contact input {
-    grid-column: span 2;
+    grid-column: span 1;
 }
 
 #contact textarea {
-    grid-column: span 3;
+    grid-column: span 2;
     min-height: 40vh;
+}
+
+#contact button {
+    grid-column: span 2;
+    color: var(--dark-ale);
+    background-color: black;
 }
 
 @keyframes arrow-animation {

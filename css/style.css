@@ -59,6 +59,7 @@ header #subheading {
 
 main {
     background-color: var(--dark-ale);
+    scroll-snap-type: y proximity;
 }
 
 main h1 {
@@ -117,6 +118,7 @@ header #arrow {
     border: none;
     padding: .5em;
     border-radius: .5em;
+    scroll-snap-align: center;
 }
 
 #contact input {

@@ -12,7 +12,7 @@ html {
 
 body {
     margin: 0;
-    color: var(--ale);
+    color: var(--dark-ale);
     font-family: 'Josefin Sans', sans-serif;
 }
 

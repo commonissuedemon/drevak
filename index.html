@@ -34,7 +34,7 @@
                 <p>Pro Dřevák je IPA vařena v Minipivovaru Loužek.</p>
             </div>
         </div>
-        <h2>Máte zájem?</h2>
+        <h2 style="text-align: center;">Máte zájem?</h2>
         <form id="contact">
             <input id="email" placeholder="Váš email">
             <input id="subject" placeholder="Předmět">
@@ -45,11 +45,11 @@
 <script>
 
     let logo = document.getElementById("logo");
-    let bottle = document.querySelector(".beer-display img");
+    let bottle = document.querySelectorAll(".beer-display img");
 
     window.addEventListener("scroll", function() {
         logo.style.transform = "translate(0, -" + window.scrollY * 0.5 + "px)";
-        bottle.style.transform = "translate(0, -" + window.scrollY * 0.5 + "px)";
+        bottle.style.transform = "translate(0, -" + (window.scrollY * 0.3 - 300) + "px)";
     })
 
 </script>

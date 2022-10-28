@@ -15,9 +15,9 @@
     </header>
     <main>
         <img class="divider" src="images/bubbles.svg">
-        <h1>PIVA</h1>
+        <!--<h1>PIVA</h1>-->
         <div class="beer-display">
-            <img style="transform: rotateY(180deg);" src="images/first_bottle.png">
+            <img style="transform: rotateY(180deg);" src="https://assets.stickpng.com/images/585e639ecb11b227491c33ff.png">
             <div>
                 <h2>Premiant ležák</h2>
                 <p>Spodně kvašený světlý ležák s plným tělem a silným řízem. Vyniká svou výraznou chmelovou hořkostí získanou kombinací českých chmelových odrůd Premiant a ŽPČ. Svěží chmelové aroma láká k dalšímu napití.</p>
@@ -26,7 +26,7 @@
             </div>
         </div>
         <div class="beer-display" id="even-beer">
-            <img src="images/first_bottle.png">
+            <img src="https://assets.stickpng.com/images/585e6572cb11b227491c3405.png">
             <div>
                 <h2>Indian Pale Ale</h2>
                 <p>Svrchně kvašený, lehčí a velmi dobře pitelný, osvěžující India Pale Ale. Vyladěná kombinace aromatických odrůd (Citra, Galaxy, Mosaic, Cascade) dodává svěží citrusové aroma s ovocným nádechem broskví a angreštu. Studené chmelení odrůdou Cascade pak přidává květinovo/kořeněný charakter.</p>
@@ -45,9 +45,11 @@
 <script>
 
     let logo = document.getElementById("logo");
+    let bottle = document.querySelector(".beer-display img");
 
     window.addEventListener("scroll", function() {
         logo.style.transform = "translate(0, -" + window.scrollY * 0.5 + "px)";
+        bottle.style.transform = "translate(0, -" + window.scrollY * 0.5 + "px)";
     })
 
 </script>

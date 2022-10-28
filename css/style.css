@@ -58,7 +58,7 @@ header #subheading {
 }
 
 main {
-    background-color: var(--dark-ale);
+    /*background-color: var(--dark-ale);*/
     scroll-snap-type: y proximity;
 }
 
